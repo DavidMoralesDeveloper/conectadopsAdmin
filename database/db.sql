@@ -1,0 +1,5 @@
+CREATE TABLE user(
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(255) UNIQUE,
+  description VARCHAR(255)
+);
